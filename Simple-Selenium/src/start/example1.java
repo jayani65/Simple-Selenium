@@ -11,8 +11,7 @@ public class example1 {
 	public static void main(String[] args) {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\selenium app\\drivers\\chromedriver.exe");
-		// System.setProperty("webdriver.edge.driver", "C:\\selenium
-		// app\\drivers\\msedgedriver.exe");
+		// System.setProperty("webdriver.edge.driver", "C:\\selenium app\\drivers\\msedgedriver.exe");
 		driver = new ChromeDriver();
 		// driver = new EdgeDriver();
 		driver.get("https://www.selenium.dev/");
